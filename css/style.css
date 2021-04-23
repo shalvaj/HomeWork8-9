@@ -88,19 +88,29 @@
 .lorem-text {
 	width: 771px;
 	height: 122px;
+	margin-left: 255px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	display: inline-block;
-	margin: 0 auto;
 }
 .lorem {
 	font-size: 35px;
 	width: 570px;
 	height: 50px;
+	padding-left: 100px;
+	display: inline-block;
+	display: flex;
+	align-items: center;
 	display: inline-block;
 }
 .ipsum {
 	font-size: 16px;
 	width: 771px;
 	height: 71px;
+	display: inline-block;
+	display: flex;
+	align-items: center;
 	display: inline-block;
 
 }
@@ -109,6 +119,7 @@
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .box-one {
 	width: 371px;
@@ -131,4 +142,15 @@
 .prg {
 	width: 250px;
 	text-align: center;
+	margin-top: 9px;
+	font-size: 16px;
+}
+.box-one:nth-child(1),
+.box-one:nth-child(2),
+.box-one:nth-child(3) {
+	margin-bottom: 50px;
+}
+.h-class {
+	margin-top: 25px;
+	font-size: 18px;
 }
